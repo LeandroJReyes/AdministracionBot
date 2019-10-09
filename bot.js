@@ -3,7 +3,7 @@ const  client = new Discord.Client();
 
 client.on("ready", () => {
    console.log("Estoy listo!");
-   bot.user.setStatus('Online 24/7');
+  
   
 });
 client.on("message", (message) => {
