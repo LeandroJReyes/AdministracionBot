@@ -3,7 +3,7 @@ const  client = new Discord.Client();
 
 client.on("ready", () => {
    console.log("Estoy listo!");
-   client.user.setActivity('!comandos',3);
+    client.user.setActivity('!comandos',"STREAMING");
   
   
 });
