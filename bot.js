@@ -3,7 +3,7 @@ const  client = new Discord.Client();
 
 client.on("ready", () => {
    console.log("Estoy listo!");
-   client.user.setGame('!comandos');
+   client.user.setActivity('!comandos',3);
   
   
 });
