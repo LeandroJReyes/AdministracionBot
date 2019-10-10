@@ -52,6 +52,9 @@ if (message.content.startsWith("!capitanes")){
   if(message.content.startsWith("!judio")){
     message.channel.send("Como vas a decir eso judio hijo de puta!!",{files:["./image/judio.gif"]});
   }
+   if(message.content.startsWith("!inflacion")){
+  message.channel.send( "La inflacion es siempre y en todo lugar un FENOMENO MONETARIO",{files:["./image/milei.jpg"]});
+}
 
   if (message.content.startsWith("!comandos")){
     message.channel.send({embed: {
