@@ -59,7 +59,7 @@ if (message.content.startsWith("!capitanes")){
   if (message.content.startsWith("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!patada\n!host\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!inflacion\n!patada\n!host\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
     }});
 
   }
