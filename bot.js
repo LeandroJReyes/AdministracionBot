@@ -45,9 +45,6 @@ case 10:message.channel.send("Adox");break;
 if (message.content.startsWith("!capitanes")){
   message.channel.send("***\nEl comando !capitanes NO estara disponible hasta el 26/10/2019***");
 }
-   if (message=="!holaa"){
-  message-channel.send("holiiis");
-}
 
   if (message.content.startsWith("!patada")){
     message.channel.send({files:["./image/tinnico.gif"]});
@@ -71,7 +68,7 @@ if (message.content.startsWith("!capitanes")){
     message.channel.send("\n__**El torneo se llevara a cabo el dia 26/10/2019**__"+"\n\n__Integrantes Confirmados:__"+"\nSanti\ngeno\nTinnico\nMonsterWeed\nbranca\nTuki\nEmiliano\nclocken\nMax\nAdox"+"\n\n__Suplentes:__\nTiti");
   }
    
-   if (message.content.startsWith("!host")){
+   if (message.content.toLowerCase.startsWith("!host")){
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
 
