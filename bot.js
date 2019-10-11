@@ -45,6 +45,9 @@ case 10:message.channel.send("Adox");break;
 if (message.content.startsWith("!capitanes")){
   message.channel.send("***\nEl comando !capitanes NO estara disponible hasta el 26/10/2019***");
 }
+   if (message=="!holaa"){
+  message-channel.send("holiiis");
+}
 
   if (message.content.startsWith("!patada")){
     message.channel.send({files:["./image/tinnico.gif"]});
