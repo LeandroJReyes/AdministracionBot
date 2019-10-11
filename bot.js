@@ -73,7 +73,7 @@ if (message.content.startsWith("!capitanes")){
   }
    
    if (message.content.toLowerCase("!hola")){
-  message-channel.send("holiiis");
+  message.channel.send("holiiis");
 }
 
 
