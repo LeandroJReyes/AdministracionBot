@@ -72,10 +72,6 @@ if (message.content.startsWith("!capitanes")){
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
-   if (message.content.toLowerCase("!hola")){
-  message.channel.send("holiiis");
-}
-
 
 });
 client.login(process.env.BOT_TOKEN);
