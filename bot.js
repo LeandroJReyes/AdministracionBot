@@ -74,8 +74,6 @@ if (message.content.startsWith("!capitanes")){
    
 
    
-}
-   
 
 });
 client.login(process.env.BOT_TOKEN);
