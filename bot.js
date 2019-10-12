@@ -11,7 +11,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
-  /*if (message.content.startsWith("!capitanes")){
+  if (message.content.startsWith("!caps")){
     var random1=Math.floor(Math.random() * 10)+1;  
     var random2=Math.floor(Math.random()*10)+1;
     while (random1==random2){random2=Math.floor(Math.random()*10)+1;}
@@ -40,7 +40,7 @@ case 10:message.channel.send("Adox");break;
     case 9:message.channel.send("Max");break;
     case 10:message.channel.send("Adox");break;
    }
-  }*/
+  }
 
 if (message.content.startsWith("!capitanes")){
   message.channel.send("***\nEl comando !capitanes NO estara disponible hasta el 26/10/2019***");
@@ -73,7 +73,7 @@ if (message.content.startsWith("!capitanes")){
   }
    
    if(message.content.startsWith("!baja")){
-  message.channel.send("Baja cagon Baja",{files:["./image/baja.gif"]});
+  message.channel.send({files:["./image/baja.gif"]});
 }   
 
    
