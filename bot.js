@@ -72,8 +72,10 @@ if (message.content.startsWith("!capitanes")){
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
-   if(message.content.substring(0,5)=="!baja"){
+  if(message.content.message=="baja"){
   message.channel.send("jejojo");
+}
+   
 }
    
 
