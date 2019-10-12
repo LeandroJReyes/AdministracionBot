@@ -17,16 +17,16 @@ client.on("message", (message) => {
     while (random1==random2){random2=Math.floor(Math.random()*10)+1;}
     message.channel.send("Los capitanes son:\n");
     switch(random1){
-case 1:message.channel.send("Santi"+" Comienza eligiendo miembros");break;
-case 2:message.channel.send("geno"+" Comienza eligiendo miembros");break;
-case 3:message.channel.send("Tinnico"+" Comienza eligiendo miembros");break;
-case 4:message.channel.send("MonsterWeed"+" Comienza eligiendo miembros");break;
-case 5:message.channel.send("branca"+" Comienza eligiendo miembros");break;
-case 6:message.channel.send("Tuki"+" Comienza eligiendo miembros");break;
-case 7:message.channel.send("Emiliano"+" Comienza eligiendo miembros");break;
-case 8:message.channel.send("clocken"+" Comienza eligiendo miembros");break;
-case 9:message.channel.send("Max"+" Comienza eligiendo miembros");break;
-case 10:message.channel.send("Adox"+" Comienza eligiendo miembros");break;
+case 1:message.channel.send("Santi"+" (Comienza eligiendo miembros)");break;
+case 2:message.channel.send("geno"+" (Comienza eligiendo miembros)");break;
+case 3:message.channel.send("Tinnico"+" (Comienza eligiendo miembros)");break;
+case 4:message.channel.send("MonsterWeed"+" (Comienza eligiendo miembros)");break;
+case 5:message.channel.send("branca"+" (Comienza eligiendo miembros)");break;
+case 6:message.channel.send("Tuki"+" (Comienza eligiendo miembros)");break;
+case 7:message.channel.send("Emiliano"+" (Comienza eligiendo miembros)");break;
+case 8:message.channel.send("clocken"+" (Comienza eligiendo miembros)");break;
+case 9:message.channel.send("Max"+" (Comienza eligiendo miembros)");break;
+case 10:message.channel.send("Adox"+" (Comienza eligiendo miembros)");break;
     }
    switch(random2){
     case 1:message.channel.send("Santi");break;
