@@ -77,7 +77,7 @@ if (message.content.startsWith("!capitanes")){
 }  
    
  if(message.content.startsWith("!limp")){
-  message.channel.send("  \n   \n  limpiando..  \n  \n\n  \n\n   \n\n\n   \n\n\n\n       \n\n\n\n        \n\n    \n\n\n");
+  message.channel.send("  \n   \n  limpiando..  \n  \n\n  \n\n   \n\n\n   \n\n\n\n       \n\n\n\n        \n\n    \n\n\njgyjgyhj");
   }
 
 
