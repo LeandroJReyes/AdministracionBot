@@ -59,7 +59,7 @@ if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitan
   if (message.content.startsWith("!comandos")&&message.content.endsWith("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\nlimpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
     }});
 
   }
