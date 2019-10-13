@@ -68,7 +68,7 @@ if (message.content.startsWith("!capitanes")){
     message.channel.send("\n__**El torneo se llevara a cabo el dia 26/10/2019**__"+"\n\n__Integrantes Confirmados:__"+"\nSanti\ngeno\nTinnico\nMonsterWeed\nbranca\nTuki\nEmiliano\nclocken\nMax\nAdox"+"\n\n__Suplentes:__\nTiti\n2puntosbcorta");
   }
    
-   if (message.content.startsWith("!host")){
+   if (message.content.startsWith("!host")&&message.content.endsWith("!host")){
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
