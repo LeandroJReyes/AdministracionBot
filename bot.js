@@ -76,8 +76,8 @@ if (message.content.startsWith("!capitanes")){
   message.channel.send({files:["./image/baja.gif"]});
 }  
    
- if(message.content.startsWith("!limp")){
-  message.channel.send("  \n   \n  limpiando..  \n  \n\n  \n\n   \n\n\n   \n\n\n\n       \n\n\n\n        \n\n    \n\n\njgyjgyhj");
+if(message.content.startsWith("!limp")){
+  message.channel.send("limpiando.. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
   }
 
 
