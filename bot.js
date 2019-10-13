@@ -59,7 +59,7 @@ if (message.content.startsWith("!capitanes")){
   if (message.content.startsWith("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\nlimpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
     }});
 
   }
@@ -76,7 +76,7 @@ if (message.content.startsWith("!capitanes")){
   message.channel.send({files:["./image/baja.gif"]});
 }  
    
-if(message.content.startsWith("!limp")){
+if(message.content.startsWith("!limpiar")){
   message.channel.send("limpiando.. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
   }
 
