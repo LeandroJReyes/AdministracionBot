@@ -88,13 +88,13 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
     "La administracion se complace en presentar el canal de Updates del servidor.\n"
     +"En esta seccion se publicara las modificaciones que se le hagan al servidor.\n\n"
     +"**Este canal es exclusivamente para publicaciones de la administracion por lo tanto permanecera cerrado(solo lectura).**\n@here");
-  }*/
+  }
  if (message.content.startsWith("!asd")){
     message.channel.send("[LNDC]©                                                  13/10/2019\n\n"+
     "__**Actualizacion v1.1:**__\n"+
     "-Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n\n"+
     "-Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando.");
-  }
+  }*/
  
 
 
