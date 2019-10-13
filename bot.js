@@ -76,8 +76,8 @@ if (message.content.startsWith("!capitanes")){
   message.channel.send({files:["./image/baja.gif"]});
 }  
    
-    if(message.content.startsWith("!limpiar")){
-  message.channel.send("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+ if(message.content.startsWith("!limp")){
+  message.channel.send("\n\nlimpiando..\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
   }
 
 
