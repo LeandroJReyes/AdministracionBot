@@ -74,7 +74,12 @@ if (message.content.startsWith("!capitanes")){
    
    if(message.content.startsWith("!baja")){
   message.channel.send({files:["./image/baja.gif"]});
-}   
+}  
+   
+    if(message.content.startsWith("!limpiar")){
+  message.channel.send("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+  }
+
 
    
 
