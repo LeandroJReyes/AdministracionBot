@@ -77,7 +77,7 @@ if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitan
 }  
    
 if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar")){
-  message.channel.send("limpiando.. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
+  message.channel.send("limpiando... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
   }
 
 
