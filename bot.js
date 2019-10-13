@@ -81,7 +81,8 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
   }
    
    
-
+//comunicadoss
+   /*
   if(message.content.startsWith("!das")){
     message.channel.send("[LNDC]©                                                  13/10/2019\n\n"+
     "La administracion se complace en presentar el canal de Updates del servidor.\n"
@@ -93,6 +94,7 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
     "__**Actualizacion v1.1:**__\n"+
     "Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n@here");
   }
+  */
 
 
    
