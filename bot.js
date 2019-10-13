@@ -11,7 +11,7 @@ client.on("message", (message) => {
   if (message.content.startsWith("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
-  /*if (message.content.startsWith("!capitanes")){
+  /*if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitanes")){
     var random1=Math.floor(Math.random() * 10)+1;  
     var random2=Math.floor(Math.random()*10)+1;
     while (random1==random2){random2=Math.floor(Math.random()*10)+1;}
@@ -42,21 +42,21 @@ case 10:message.channel.send("Adox"+" (Comienza eligiendo miembros)");break;
    }
   }*/
 
-if (message.content.startsWith("!capitanes")){
+if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitanes")){
   message.channel.send("***\nEl comando !capitanes NO estara disponible hasta el 26/10/2019***");
 }
 
-  if (message.content.startsWith("!patada")){
+  if (message.content.startsWith("!patada")&&message.content.endsWith("!patada")){
     message.channel.send({files:["./image/tinnico.gif"]});
   }
-  if(message.content.startsWith("!judio")){
+  if(message.content.startsWith("!judio")&&message.content.endsWith("!judio")){
     message.channel.send("Como vas a decir eso judio hijo de puta!!",{files:["./image/judio.gif"]});
   }
-   if(message.content.startsWith("!inflacion")){
+   if(message.content.startsWith("!inflacion")&&message.content.endsWith("!inflacion")){
   message.channel.send( "La inflacion es siempre y en todo lugar un FENOMENO MONETARIO",{files:["./image/milei.jpg"]});
 }
 
-  if (message.content.startsWith("!comandos")){
+  if (message.content.startsWith("!comandos")&&message.content.endsWith("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
       description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\nlimpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
@@ -64,7 +64,7 @@ if (message.content.startsWith("!capitanes")){
 
   }
 
-  if (message.content.startsWith("!torneo")){
+  if (message.content.startsWith("!torneo")&&message.content.endsWith("!torneos")){
     message.channel.send("\n__**El torneo se llevara a cabo el dia 26/10/2019**__"+"\n\n__Integrantes Confirmados:__"+"\nSanti\ngeno\nTinnico\nMonsterWeed\nbranca\nTuki\nEmiliano\nclocken\nMax\nAdox"+"\n\n__Suplentes:__\nTiti\n2puntosbcorta");
   }
    
@@ -72,11 +72,11 @@ if (message.content.startsWith("!capitanes")){
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
-   if(message.content.startsWith("!baja")){
+   if(message.content.startsWith("!baja")&&message.content.endsWith("!baja")){
   message.channel.send({files:["./image/baja.gif"]});
 }  
    
-if(message.content.startsWith("!limpiar")){
+if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar")){
   message.channel.send("limpiando.. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
   }
 
