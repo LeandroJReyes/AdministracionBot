@@ -79,6 +79,20 @@ if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitan
 if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar")){
   message.channel.send("limpiando... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
   }
+   
+   
+    if(message.content.startsWith("!nov")){
+    message.channel.send("[LNDC]©                                                  13/10/2019\n"+
+    "La administracion se complace en presentar el canal de Updates del servidor.\n"
+    +"En esta seccion se publicara las modificaciones que se le hagan al servidor.\n\n"
+    +"Este canal es exclusivamente para publicaciones de la administracion por lo tanto permanecera cerrado(solo lectura).");
+  }
+  if (message.content.startsWith("!nov2")){
+    message.channel.send("[LNDC]©                                                  13/10/2019\n"+
+    "__**Actualizacion v1.1:**__\n"+
+    "Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.");
+  }
+
 
 
    
