@@ -92,8 +92,8 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
  if (message.content.startsWith("!asd")){
     message.channel.send("[LNDC]©                                                  13/10/2019\n\n"+
     "__**Actualizacion v1.1:**__\n"+
-    "Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n"+
-    "Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando");
+    "-Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n\n"+
+    "-Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando");
   }
  
 
