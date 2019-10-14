@@ -64,7 +64,7 @@ if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitan
 
   }
 
-  if (message.content.startsWith("!torneo")&&message.content.endsWith("!torneos")){
+  if (message.content.startsWith("!torneo")&&message.content.endsWith("!torneo")){
     message.channel.send("\n__**El torneo se llevara a cabo el dia 26/10/2019**__"+"\n\n__Integrantes Confirmados:__"+"\nSanti\ngeno\nTinnico\nMonsterWeed\nbranca\nTuki\nEmiliano\nclocken\nMax\nAdox"+"\n\n__Suplentes:__\nTiti\n2puntosbcorta");
   }
    
