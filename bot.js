@@ -96,24 +96,21 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
     "-Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando.");
   }*/
  
-
-    if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
+if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
     message.channel.send("El mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
     switch(ran){
-      case 1:message.channel.send("Santi");break;
-      case 2:message.channel.send("geno ");break;
-      case 3:message.channel.send("Maxi");break;
-      case 4:message.channel.send("MonsterWeed ");break;
-      case 5:message.channel.send("branca ");break;
-      case 6:message.channel.send("Tuki ");break;
-      case 7:message.channel.send("Tinnico ");break;
+      case 1:message.channel.send("Santi",{files:["./image/santi.jpg"]});break;
+      case 2:message.channel.send("geno",{files:["./image/geno.jpg"]});break;
+      case 3:message.channel.send("Maxi",{files:["./image/maxi.jpg"]});break;
+      case 4:message.channel.send("MonsterWeed",{files:["./image/yo.png"]});break;
+      case 5:message.channel.send("branca",{files:["./image/branca.jpg"]});break;
+      case 6:message.channel.send("Tuki",{files:["./image/tuki.jpg"]});break;
+      case 7:message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});break;
      }
 
   }
-
-
-   
+ 
 
 });
 client.login(process.env.BOT_TOKEN);
