@@ -97,6 +97,21 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
   }*/
  
 
+    if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
+    message.channel.send("El mas hermoso de este servidor es:");
+    var ran=Math.floor(Math.random() * 7)+1;
+    switch(ran){
+      case 1:message.channel.send("Santi");break;
+      case 2:message.channel.send("geno ");break;
+      case 3:message.channel.send("Maxi");break;
+      case 4:message.channel.send("MonsterWeed ");break;
+      case 5:message.channel.send("branca ");break;
+      case 6:message.channel.send("Tuki ");break;
+      case 7:message.channel.send("Tinnico ");break;
+     }
+
+  }
+
 
    
 
