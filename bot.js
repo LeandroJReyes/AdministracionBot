@@ -113,6 +113,11 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
 
   }*/
    
+     if (!message.content.startsWith("!test")){
+    message.channel.send(message.author.toString+"si salio");
+  }
+ 
+   
 
 
 });
