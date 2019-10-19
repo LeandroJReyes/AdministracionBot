@@ -8,7 +8,7 @@ client.on("ready", () => {
   
 });
 client.on("message", (message) => {
-  if (message.content.startsWith("!puestada")) {
+  if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
   /*if (message.content.startsWith("!capitanes")&&message.content.endsWith("!capitanes")){
