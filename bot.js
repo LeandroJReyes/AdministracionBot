@@ -118,7 +118,7 @@ if(message.content===("!limpiar")){
      
   }
    
-    if (message.content.startsWith("!")&&message.content!==("!comandos"||"!lindo")){
+    if (message.content.startsWith("!")&&message.content!==("!comandos","!lindo")){
     message.channel.send("Comando no reconodico");
   }
  
