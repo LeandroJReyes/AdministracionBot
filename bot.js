@@ -95,8 +95,10 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
     "-Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n\n"+
     "-Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando.");
   }*/
+   
+   //nuevos comandos (Alpha)
  
-if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
+/*if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
     message.channel.send("El mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
     switch(ran){
@@ -109,7 +111,7 @@ if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
       case 7:message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});break;
      }
 
-  }
+  }*/
  
 
 });
