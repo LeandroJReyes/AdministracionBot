@@ -114,7 +114,7 @@ if(message.content===("!limpiar")){
    
  if (message.content===("!test")){
      message.delete();
-    message.channel.send(message.author.toString()+" si salio");
+    message.channel.send(message.author.toString()+" gracias por testearme, la administracion siempre esta atenta.");
      
   }
    
