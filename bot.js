@@ -117,6 +117,10 @@ if(message.content===("!limpiar")){
     message.channel.send(message.author.toString()+"si salio");
      
   }
+   
+    if (message.content.startsWith("!")&&message.content!==("!comandos"||"!lindo")){
+    message.channel.send("Comando no reconodico");
+  }
  
    
 
