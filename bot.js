@@ -113,9 +113,7 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
 
   }*/
    
- if (!message.content.startsWith("!")){
-    message.channel.send("No Se encontro el comando requerido.");
-  }
+
 
 });
 client.login(process.env.BOT_TOKEN);
