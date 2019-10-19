@@ -98,8 +98,8 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
    
    //nuevos comandos (Alpha)
  
-/*if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
-    message.channel.send("El mas hermoso de este servidor es:");
+if(message.content.startsWith("!lindo")&&message.content.endsWith("!lindo")){
+    message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
     switch(ran){
       case 1:message.channel.send("Santi",{files:["./image/santi.jpg"]});break;
@@ -110,8 +110,7 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
       case 6:message.channel.send("Tuki",{files:["./image/tuki.jpg"]});break;
       case 7:message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});break;
      }
-
-  }*/
+  }
    
  if (message.content.startsWith("!test")){
     message.channel.send(message.author.toString()+"si salio");
