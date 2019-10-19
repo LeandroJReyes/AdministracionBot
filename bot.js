@@ -114,7 +114,7 @@ if(message.content.startsWith("!limpiar")&&message.content.endsWith("!limpiar"))
   }*/
    
    if (message.content.startsWith("!testf")&&message.content.endsWith("!testf")){
-    message.channel.send(user.message.startsWith("!testf"),"mando el mensaje");
+    message.channel.send(user.message.startsWith("!testf")+"mando el mensaje");
   }
  
 
