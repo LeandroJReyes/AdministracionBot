@@ -114,6 +114,7 @@ if(message.content===("!limpiar")){
    
  if (message.content===("!test")){
     message.channel.send(message.author.toString()+"si salio");
+     message.delete();
   }
  
    
