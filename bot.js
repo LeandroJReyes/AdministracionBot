@@ -114,15 +114,15 @@ if(message.content===("!limpiar")){
    
  if (message.content===("!test")){
      message.delete();
-    message.channel.send(message.author.toString()+"si salio");
+    message.channel.send(message.author.toString()+" si salio");
      
   }
    
-if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+/*if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")){
      message.delete();
     message.channel.send(message.author.toString()+" __**No se reconocio el comando,por favor compruebe el comando usando !comandos **__");
-  }
+  }*/
    
 
 
