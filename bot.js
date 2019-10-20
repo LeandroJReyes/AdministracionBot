@@ -213,7 +213,7 @@ if(message.content===("!limpiar")){
   
   //caee
   if(message.content===("cae")){
-  message.channel.send(sddf"ddf"v)
+  message.channel.send(sddf"ddf"v);
   
 }
    
