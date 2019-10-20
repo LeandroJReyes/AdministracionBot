@@ -97,7 +97,8 @@ if(message.content===("!limpiar")){
   }*/
    
    //nuevos comandos (Alpha)
-    if(message.content===("!lindo")){
+    
+   /*if(message.content===("!lindo")){
        message.delete();
     message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
@@ -190,7 +191,7 @@ if(message.content===("!limpiar")){
           message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});}
    break;
      }
-  } 
+  } */
 
 
 //sdasdd
