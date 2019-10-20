@@ -180,7 +180,7 @@ if(message.content===("!limpiar")){
    
  if(message.content===("!sale")){
     message.delete();
-    message.channel.send("**Sale o no sale?**")
+    message.channel.send("**Sale o no sale?** "+message.author.toString())
     var sale=Math.floor(Math.random() * 10)+1;
     switch(sale){
       case 1:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
