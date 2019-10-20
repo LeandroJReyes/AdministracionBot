@@ -82,34 +82,19 @@ if(message.content===("!limpiar")){
   }
    
    
-//comunicadoss
-   /*
-  if(message.content===("!das")){
-    message.channel.send("[LNDC]©                                                  13/10/2019\n\n"+
-    "La administracion se complace en presentar el canal de Updates del servidor.\n"
-    +"En esta seccion se publicara las modificaciones que se le hagan al servidor.\n\n"
-    +"**Este canal es exclusivamente para publicaciones de la administracion por lo tanto permanecera cerrado(solo lectura).**\n@here");
-  }
- if (message.content===("!asd")){
-    message.channel.send("[LNDC]©                                                  13/10/2019\n\n"+
-    "__**Actualizacion v1.1:**__\n"+
-    "-Nuevo comando de **!limpiar**. Este comando es util para aquellos que desean limpiar el chat cuando alguien manda algun tipo de material comprometido de instagram o twitter dentro del canal de mensajes.\n\n"+
-    "-Se arreglo el bug de comandos que cuando escribian un comando y segian escribiendo salia el ejecutable del comando.");
-  }*/
+
    
    //nuevos comandos (Alpha)
     
-   /*if(message.content===("!lindo")){
+   if(message.content===("!lindo")){
        message.delete();
     message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
     var cuat=Math.floor(Math.random() * 4)+1;
     var tres=Math.floor(Math.random() * 3)+1;
     var cin=Math.floor(Math.random() * 5)+1;
-
     switch(ran){
       case 1:
-
           if(cuat==1){
           message.channel.send("Santi",{files:["./image/santi.jpg"]});
           }
@@ -123,7 +108,6 @@ if(message.content===("!limpiar")){
           message.channel.send("Santi",{files:["./image/santi4.jpg"]});
         }
         break;
-
       case 2:
         if(tres==1){
           message.channel.send("geno",{files:["./image/geno.jpg"]});
@@ -212,21 +196,14 @@ if(message.content===("!limpiar")){
     }
   }
   
-  //caee
-  if(message.content===("cae")){
-  message.channel.send(sddf"ddf"v);
-  
-}
    
    if(message.content===("!F")){
   message.channel.send(message.author.toString()+" **Pays Respect To Tiquino**",{files:["./image/fres.jpg"]});
 }
-
 if(message.content===("!f")){
   message.channel.send("**PEDAZO DE CORNUDO ESCRIBI BIEN EL COMANDO ES: !F (con mayucula imbecil)**");
-}*/
+}
 
-//hasta aca
    
 if (message.content===("!lanz")){
    message.delete();
@@ -244,4 +221,3 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
 
 });
 client.login(process.env.BOT_TOKEN);
-        
