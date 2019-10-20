@@ -97,7 +97,98 @@ if(message.content===("!limpiar")){
   }*/
    
    //nuevos comandos (Alpha)
+   if(message.content===("!lindo")){
+    message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
+    var ran=Math.floor(Math.random() * 7)+1;
+    var cuat=Math.floor(Math.random() * 4)+1;
+    var tres=Math.floor(Math.random() * 3)+1;
+    var cin=Math.floor(Math.random() * 5)+1;
+
+    switch(ran){
+      case 1:
+
+          if(cuat==1){
+          message.channel.send("Santi",{files:["./image/santi.jpg"]});
+          }
+          if(cuat==2){
+          message.channel.send("Santi",{files:["./image/santi2.jpg"]});
+        }
+          if(cuat==3){
+          message.channel.send("Santi",{files:["./image/santi3.jpg"]});
+        }
+          if(cuat==4){
+          message.channel.send("Santi",{files:["./image/santi4.jpg"]});
+        }
+
+      case 2:
+        if(tres==1){
+          message.channel.send("geno",{files:["./image/geno.jpg"]});
+        }
+          if(tres==2){
+          message.channel.send("geno",{files:["./image/geno2.jpg"]});
+          }
+          if(tres==3)
+          {
+          message.channel.send("geno",{files:["./image/geno3.jpg"]});
+          }
+        
+      
+      case 3:
+        if(cin==1){
+          message.channel.send("Maxi",{files:["./image/maxi.jpg"]});
+        }
+          if(cin==2){
+          message.channel.send("Maxi",{files:["./image/maxi2.jpg"]});}
+          if(cin==3){
+          message.channel.send("Maxi",{files:["./image/maxi3.jpg"]});}
+          if(cin==4){
+        message.channel.send("Maxi",{files:["./image/maxi4.jpg"]});}
+        if(cin==5){
+        message.channel.send("Maxi",{files:["./image/maxi5.jpg"]});}
+
+      case 4:
+          if(cuat==1){
+          message.channel.send("MonsterWeed",{files:["./image/yo.png"]});}
+          if(cuat==2){
+          message.channel.send("MonsterWeed",{files:["./image/yo2.gif"]});}
+          if(cuat==3){
+          message.channel.send("MonsterWeed",{files:["./image/yo3.gif"]});}
+          if(cuat==4){
+          message.channel.send("MonsterWeed",{files:["./image/yo4.gif"]});}
+        
+      
+      case 5:
+        if(cin==1){
+          message.channel.send("branca",{files:["./image/branca.jpg"]});}
+          if(cin==2){
+          message.channel.send("branca",{files:["./image/branca2.jpg"]});}
+          if(cin==3){
+          message.channel.send("branca",{files:["./image/branca3.jpg"]});}
+          if(cin==4){
+          message.channel.send("branca",{files:["./image/branca4.jpg"]});}
+          if(cin==5){
+          message.channel.send("branca",{files:["./image/branca5.jpg"]});}
+       
+      
+      case 6:
+        
+          if(tres==1){
+          message.channel.send("Tuki",{files:["./image/tuki.jpg"]});}
+          if(tres==2){
+          message.channel.send("Tuki",{files:["./image/tuki2.jpg"]});}
+          if(tres==3){
+          message.channel.send("Tuki",{files:["./image/tuki3.jpg"]});}
+      
+      case 7:
+       if(tres==1){
+          message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});}
+          if(tres==2){
+          message.channel.send("Tinnico",{files:["./image/tinnico2.png"]});}
+          if(tres==3){
+          message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});}
    
+     }
+  } 
 
 //sdasdd
    
