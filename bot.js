@@ -212,7 +212,7 @@ if(message.content===("!limpiar")){
   }
    
    if(message.content===("!F")){
-  message.channel.send(message.author.toString()+" **Pays Respect for Tiquino**",{files:["./image/fres.jpg"]});
+  message.channel.send(message.author.toString()+" **Pays Respect To Tiquino**",{files:["./image/fres.jpg"]});
 }
 
 if(message.content===("!f")){
