@@ -97,7 +97,81 @@ if(message.content===("!limpiar")){
   }*/
    
    //nuevos comandos (Alpha)
-
+if(message.content===("!lindo")){
+    message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
+    var ran=Math.floor(Math.random() * 7)+1;
+    switch(ran){
+      case 1:{
+        var a=Math.floor(math.random()*4)+1;
+        switch(a){
+          case 1:message.channel.send("Santi",{files:["./image/santi.jpg"]});break;
+          case 2:message.channel.send("Santi",{files:["./image/santi2.jpg"]});break;
+          case 3:message.channel.send("Santi",{files:["./image/santi3.jpg"]});break;
+          case 4:message.channel.send("Santi",{files:["./image/santi4.jpg"]});break;
+          default:
+            break;
+       }
+      
+       
+      }
+      case 2:{
+        var ar=Math.floor(math.random()*3)+1;
+        switch(ar){
+          case 1:message.channel.send("geno",{files:["./image/geno.jpg"]});break;
+          case 2:message.channel.send("geno",{files:["./image/geno2.jpg"]});break;
+          case 3:message.channel.send("geno",{files:["./image/geno3.jpg"]});break;
+        }
+      }
+      case 3:{
+        var tt=Math.floor(math.random()*5)+1;
+        switch(tt){
+          case 1:message.channel.send("Maxi",{files:["./image/maxi.jpg"]});break;
+          case 2:message.channel.send("Maxi",{files:["./image/maxi2.jpg"]});break;
+          case 3:message.channel.send("Maxi",{files:["./image/maxi3.jpg"]});break;
+          case 4:message.channel.send("Maxi",{files:["./image/maxi4.jpg"]});break;
+          case 5:message.channel.send("Maxi",{files:["./image/maxi5.jpg"]});break;
+          
+        }
+      }
+      case 4:{
+        var fg=Math.floor(math.random()*4)+1;
+        switch(fg){
+          case 1:message.channel.send("MonsterWeed",{files:["./image/yo.png"]});break;
+          case 2:message.channel.send("MonsterWeed",{files:["./image/yo2.gif"]});break;
+          case 3:message.channel.send("MonsterWeed",{files:["./image/yo3.gif"]});break;
+          case 4:message.channel.send("MonsterWeed",{files:["./image/yo4.gif"]});break;
+        }
+      }
+      case 5:{
+        var m=Math.floor(math.random()*5)+1;
+        switch(m){
+          case 1:message.channel.send("branca",{files:["./image/branca.jpg"]});break;
+          case 2:message.channel.send("branca",{files:["./image/branca2.jpg"]});break;
+          case 3:message.channel.send("branca",{files:["./image/branca3.jpg"]});break;
+          case 4:message.channel.send("branca",{files:["./image/branca4.jpg"]});break;
+          case 5:message.channel.send("branca",{files:["./image/branca5.jpg"]});break;
+        }
+      }
+      case 6:{
+        var sdd=Math.floor(math.random()*3)+1;
+        switch(sdd){
+          case 1:message.channel.send("Tuki",{files:["./image/tuki.jpg"]});break;
+          case 2:message.channel.send("Tuki",{files:["./image/tuki2.jpg"]});break;
+          case 3:message.channel.send("Tuki",{files:["./image/tuki3.jpg"]});break;
+        }
+      }
+      case 7:{
+        var ff=Math.floor(math.random()*3)+1;
+        switch(ff){
+          case 1:message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});break;
+          case 2:message.channel.send("Tinnico",{files:["./image/tinnico2.png"]});break;
+          case 3:message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});break;
+        }
+      }
+      default:
+        break;
+     }
+  } 
 //sdasdd
    
  if (message.content===("!test")){
