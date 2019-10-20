@@ -97,7 +97,7 @@ if(message.content===("!limpiar")){
   }*/
    
    //nuevos comandos (Alpha)
-   if(message.content===("!lindo")){
+    if(message.content===("!lindo")){
     message.channel.send("Segun "+message.author.toString()+ " el bebe mas hermoso de este servidor es:");
     var ran=Math.floor(Math.random() * 7)+1;
     var cuat=Math.floor(Math.random() * 4)+1;
@@ -119,6 +119,7 @@ if(message.content===("!limpiar")){
           if(cuat==4){
           message.channel.send("Santi",{files:["./image/santi4.jpg"]});
         }
+        break;
 
       case 2:
         if(tres==1){
@@ -131,7 +132,7 @@ if(message.content===("!limpiar")){
           {
           message.channel.send("geno",{files:["./image/geno3.jpg"]});
           }
-        
+        break;
       
       case 3:
         if(cin==1){
@@ -145,7 +146,7 @@ if(message.content===("!limpiar")){
         message.channel.send("Maxi",{files:["./image/maxi4.jpg"]});}
         if(cin==5){
         message.channel.send("Maxi",{files:["./image/maxi5.jpg"]});}
-
+          break;
       case 4:
           if(cuat==1){
           message.channel.send("MonsterWeed",{files:["./image/yo.png"]});}
@@ -155,7 +156,7 @@ if(message.content===("!limpiar")){
           message.channel.send("MonsterWeed",{files:["./image/yo3.gif"]});}
           if(cuat==4){
           message.channel.send("MonsterWeed",{files:["./image/yo4.gif"]});}
-        
+        break;
       
       case 5:
         if(cin==1){
@@ -168,7 +169,7 @@ if(message.content===("!limpiar")){
           message.channel.send("branca",{files:["./image/branca4.jpg"]});}
           if(cin==5){
           message.channel.send("branca",{files:["./image/branca5.jpg"]});}
-       
+       break;
       
       case 6:
         
@@ -178,7 +179,7 @@ if(message.content===("!limpiar")){
           message.channel.send("Tuki",{files:["./image/tuki2.jpg"]});}
           if(tres==3){
           message.channel.send("Tuki",{files:["./image/tuki3.jpg"]});}
-      
+      break;
       case 7:
        if(tres==1){
           message.channel.send("Tinnico",{files:["./image/tinnico.gif"]});}
@@ -186,9 +187,10 @@ if(message.content===("!limpiar")){
           message.channel.send("Tinnico",{files:["./image/tinnico2.png"]});}
           if(tres==3){
           message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});}
-   
+   break;
      }
   } 
+
 
 //sdasdd
    
