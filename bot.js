@@ -210,6 +210,15 @@ if(message.content===("!limpiar")){
       case 10:message.channel.send("Sale",{files:["./image/sale.png"]});break;
     }
   }
+   
+   if(message.content===("!F")){
+  message.channel.send(message.author.toString()+"**Pays Respect for Tiquino**",{files:["./image/fres.jpg"]});
+}
+
+if(message.content===("!f")){
+  message.channel.send("**PEDAZO DE CORNUDO ESCRIBI BIEN EL COMANDO ES: !F (con mayuculas imbecil)**");
+}
+
 
 
 //sdasdd
