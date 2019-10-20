@@ -195,7 +195,7 @@ if(message.content===("!limpiar")){
    
    
     if(message.content===("!sale")){
-    message.channel.send("**Sale o no sale?**")
+    message.channel.send("**Sale o no sale?**");
     var sale=Math.floor(math.random()*10)+1;
     switch(sale){
       case 1:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
