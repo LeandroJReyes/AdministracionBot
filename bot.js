@@ -56,12 +56,12 @@ if (message.content===("!capitanes")){
   message.channel.send( "La inflacion es siempre y en todo lugar un FENOMENO MONETARIO",{files:["./image/milei.jpg"]});
 }
 
-  if (message.content===("!comandos")){
+ /* if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
       description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"+
       "\n\n__NUEVOS COMANDOS:__\n\n**!F\n!sale\n!lindo**"
-    }});
+    }});*/
 
   }
 
@@ -207,8 +207,16 @@ if(message.content===("!f")){
    
 if (message.content===("!lanz")){
    message.delete();
- message.channel.send("__**Ya casi esta todo listo para el lanzamiento de la actualizacion.**__",{files:["./image/hole.gif"]}); 
-}
+ message.channel.send("[LNDC]©                                                                                                                     20/10/2019\n"+
+ "__**Actualización v1.2**__\n\n"+
+  "La administración se complace en presentar sus nuevos comandos al público.\n"+
+  "-Nuevo sistema de errores de comandos. Al enviar un comando mal escrito la Administración le responderá con un mensaje de error (están evaluadas las excepciones de !!!!)\n"+
+  "-Nuevo comando de !F\n"+ 
+  "-Nuevo comando de !sale (este comando posee probabilidades)\n"+
+  "-Nuevo comando de !lindo (este comando posee probabilidades)\n"+
+  "-Lista de !comandos actualizada a la versión actual.\n\n"+
+  "Agradecimientos especiales a: **Tinnico**"
+  ); 
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
