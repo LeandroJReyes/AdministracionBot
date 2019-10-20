@@ -212,11 +212,11 @@ if(message.content===("!limpiar")){
   }
    
    if(message.content===("!F")){
-  message.channel.send(message.author.toString()+"**Pays Respect for Tiquino**",{files:["./image/fres.jpg"]});
+  message.channel.send(message.author.toString()+" **Pays Respect for Tiquino**",{files:["./image/fres.jpg"]});
 }
 
 if(message.content===("!f")){
-  message.channel.send("**PEDAZO DE CORNUDO ESCRIBI BIEN EL COMANDO ES: !F (con mayuculas imbecil)**");
+  message.channel.send("**PEDAZO DE CORNUDO ESCRIBI BIEN EL COMANDO ES: !F (con mayucula imbecil)**");
 }
 
 
