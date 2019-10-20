@@ -59,7 +59,8 @@ if (message.content===("!capitanes")){
   if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"+
+      "__NUEVOS COMANDOS:__\n\n**!F\n!sale\n!lindo**"
     }});
 
   }
@@ -227,10 +228,10 @@ if(message.content===("!f")){
 
 //hasta aca
    
-/*if (message.content===("!lanz")){
+if (message.content===("!lanz")){
    message.delete();
  message.channel.send("__**Ya casi esta todo listo para el lanzamiento de la actualizacion.**__",{files:["./image/hole.gif"]}); 
-}*/
+}
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
