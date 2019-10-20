@@ -212,7 +212,10 @@ if(message.content===("!limpiar")){
   }
   
   //caee
-  -*sdf;;
+  if(message.content===("cae")){
+  message.channel.send(sddf"ddf"v)
+  
+}
    
    if(message.content===("!F")){
   message.channel.send(message.author.toString()+" **Pays Respect To Tiquino**",{files:["./image/fres.jpg"]});
