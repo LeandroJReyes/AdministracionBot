@@ -191,7 +191,7 @@ if(message.content===("!limpiar")){
           message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});}
    break;
      }
-  } */
+  } 
    
  if(message.content===("!sale")){
     message.delete();
@@ -217,11 +217,9 @@ if(message.content===("!limpiar")){
 
 if(message.content===("!f")){
   message.channel.send("**PEDAZO DE CORNUDO ESCRIBI BIEN EL COMANDO ES: !F (con mayucula imbecil)**");
-}
+}*/
 
-
-
-//sdasdd
+//hasta aca
    
  if (message.content===("!test")){
      message.delete();
