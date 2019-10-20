@@ -222,6 +222,7 @@ if(message.content===("!f")){
 //hasta aca
    
 if (message.content===("!lanz")){
+   message.delete();
  message.channel.send("__**Ya casi esta todo listo para el lanzamiento de la actualizacion.**__",{files:["./image/hole.gif"]}); 
 }
    
