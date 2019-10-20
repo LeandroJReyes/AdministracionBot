@@ -232,11 +232,12 @@ if(message.content===("!f")){
  message.channel.send("__**Ya casi esta todo listo para el lanzamiento de la actualizacion.**__",{files:["./image/hole.gif"]}); 
 }*/
    
-/*if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
-  &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")){
+if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+  &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
+  &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!lindo")&&message.content!==("!!!!")){
      message.delete();
     message.channel.send(message.author.toString()+" __**No se reconocio el comando,por favor compruebe el comando usando !comandos **__");
-  }*/
+  }
    
 
 
