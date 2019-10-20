@@ -194,6 +194,7 @@ if(message.content===("!limpiar")){
   } */
    
  if(message.content===("!sale")){
+    message.delete();
     message.channel.send("**Sale o no sale?**")
     var sale=Math.floor(Math.random() * 10)+1;
     switch(sale){
