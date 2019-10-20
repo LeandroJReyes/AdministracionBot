@@ -207,7 +207,7 @@ if(message.content===("!f")){
    
 if (message.content===("!lanz")){
    message.delete();
- message.channel.send("[LNDC]©                                                                                                                     20/10/2019\n"+
+ message.channel.send("[LNDC]©                                                                                                                     20/10/2019\n\n"+
  "__**Actualización v1.2**__\n\n"+
   "La administración se complace en presentar sus nuevos comandos al público.\n"+
   "-Nuevo sistema de errores de comandos. Al enviar un comando mal escrito la Administración le responderá con un mensaje de error (están evaluadas las excepciones de !!!!)\n"+
