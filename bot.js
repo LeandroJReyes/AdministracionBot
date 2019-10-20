@@ -56,14 +56,14 @@ if (message.content===("!capitanes")){
   message.channel.send( "La inflacion es siempre y en todo lugar un FENOMENO MONETARIO",{files:["./image/milei.jpg"]});
 }
 
- /* if (message.content===("!comandos")){
+  if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
       description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"+
       "\n\n__NUEVOS COMANDOS:__\n\n**!F\n!sale\n!lindo**"
     }});
 
-  }*/
+  }
 
   if (message.content===("!torneo")){
     message.channel.send("\n__**El torneo se llevara a cabo el dia 26/10/2019**__"+"\n\n__Integrantes Confirmados:__"+"\nSanti\ngeno\nTinnico\nMonsterWeed\nbranca\nTuki\nEmiliano\nclocken\nMax\nAdox"+"\n\n__Suplentes:__\nTiti\n2puntosbcorta");
