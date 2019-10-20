@@ -180,19 +180,19 @@ if(message.content===("!limpiar")){
    
  if(message.content===("!sale")){
     message.delete();
-    message.channel.send("**Sale o no sale?** "+message.author.toString())
+    message.channel.send("**Sale o no sale?**")
     var sale=Math.floor(Math.random() * 10)+1;
     switch(sale){
-      case 1:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 2:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 3:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 4:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 5:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 6:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 7:message.channel.send("No Sale",{files:["./image/nosale.png"]});break;
-      case 8:message.channel.send("Sale",{files:["./image/sale.png"]});break;
-      case 9:message.channel.send("Sale",{files:["./image/sale.png"]});break;
-      case 10:message.channel.send("Sale",{files:["./image/sale.png"]});break;
+      case 1:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 2:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 3:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 4:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 5:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 6:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 7:message.channel.send("No Sale "+message.author.toString(),{files:["./image/nosale.png"]});break;
+      case 8:message.channel.send("Sale "+message.author.toString(),{files:["./image/sale.png"]});break;
+      case 9:message.channel.send("Sale "+message.author.toString(),{files:["./image/sale.png"]});break;
+      case 10:message.channel.send("Sale "+message.author.toString(),{files:["./image/sale.png"]});break;
     }
   }
   
