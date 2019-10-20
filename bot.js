@@ -210,6 +210,9 @@ if(message.content===("!limpiar")){
       case 10:message.channel.send("Sale",{files:["./image/sale.png"]});break;
     }
   }
+  
+  //caee
+  -*sdf;;
    
    if(message.content===("!F")){
   message.channel.send(message.author.toString()+" **Pays Respect To Tiquino**",{files:["./image/fres.jpg"]});
