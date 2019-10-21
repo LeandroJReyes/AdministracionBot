@@ -211,8 +211,8 @@ if (message.content===("!lanz")){
  "__Team Mancoman__                                      __Team Tuki__\n"+
  "    Clocken                                                MonsterWeed\n"+
  "    Branca                                                  Geno\n"+
- "    Santi                                                    Tinnico\n"+
- "    Adoxx                                                  Max"); 
+ "    Santi                                                     Tinnico\n"+
+ "    Adoxx                                                   Max"); 
 }
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
