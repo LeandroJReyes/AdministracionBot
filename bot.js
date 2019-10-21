@@ -208,10 +208,10 @@ if(message.content===("!f")){
 if (message.content===("!lanz")){
    message.delete();
  message.channel.send("**La administracion ya sorteo los capitanes y ya se formaron los equipos, que son los siguientes:**\n\n"+
- "__Team Mancoman__                                       __Team Tuki__\n"+
+ "__Team Mancoman__                                      __Team Tuki__\n"+
  "    Clocken                                              MonsterWeed      \n"+
- "    Branca                                                  Geno        \n"+
- "    Santi                                                  Tinnico    \n"+
+ "    Branca                                                    Geno        \n"+
+ "    Santi                                                    Tinnico    \n"+
  "    Adoxx                                                    Max "); 
 }
    
