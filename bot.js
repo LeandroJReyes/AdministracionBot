@@ -207,16 +207,12 @@ if(message.content===("!f")){
    
 if (message.content===("!lanz")){
    message.delete();
- message.channel.send("[LNDC]©                                                                                                                     20/10/2019\n\n"+
- "__**Actualización v1.2**__\n\n"+
-  "La administración se complace en presentar sus nuevos comandos al público.\n"+
-  "-Nuevo sistema de errores de comandos. Al enviar un comando mal escrito la Administración le responderá con un mensaje de error (están evaluadas las excepciones de !!!!)\n"+
-  "-Nuevo comando de !F\n"+ 
-  "-Nuevo comando de !sale (este comando posee probabilidades)\n"+
-  "-Nuevo comando de !lindo (este comando posee probabilidades)\n"+
-  "-Lista de !comandos actualizada a la versión actual.\n\n"+
-  "Agradecimientos especiales a: **Tinnico**"
-  ); 
+ message.channel.send("**La administracion ya sorteo los capitanes y ya se formaron los equipos, que son los siguientes:**\n\n"+
+ "__Team Mancoman__                                       __Team Tuki__\n"+
+ "    Clocken                                              MonsterWeed      \n"+
+ "    Branca                                                  Geno        \n"+
+ "    Santi                                                  Tinnico    \n"+
+ "    Adoxx                                                    Max "); 
 }
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
