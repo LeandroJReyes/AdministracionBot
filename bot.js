@@ -11,7 +11,7 @@ client.on("message", (message) => {
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
-  if (message.content===("!capitanes")){
+  /*if (message.content===("!capitanes")){
     var random1=Math.floor(Math.random() * 10)+1;  
     var random2=Math.floor(Math.random()*10)+1;
     while (random1==random2){random2=Math.floor(Math.random()*10)+1;}
@@ -40,11 +40,11 @@ case 10:message.channel.send("Adox"+" (Comienza eligiendo miembros)");break;
     case 9:message.channel.send("Max");break;
     case 10:message.channel.send("Adox");break;
    }
-  }
+  }*/
 
-/*if (message.content===("!capitanes")){
-  message.channel.send("***\nEl comando !capitanes NO estara disponible hasta el 26/10/2019***");
-}*/
+if (message.content===("!capitanes")){
+  message.channel.send("***\nLos capitanes ya se elijieron, son Mancoman y Tuki,los equipos ya estan designados***");
+}
 
   if (message.content===("!patada")){
     message.channel.send({files:["./image/tinnico.gif"]});
