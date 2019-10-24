@@ -59,8 +59,8 @@ if (message.content===("!capitanes")){
   if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes (solo disponible el 26/10/2019)\n!torneo\n!judio**"+
-      "\n\n__NUEVOS COMANDOS:__\n\n**!F\n!sale\n!lindo**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes\n!torneo\n!judio\n!F\n!sale\n!lindo**"
+      
     }});
 
   }
