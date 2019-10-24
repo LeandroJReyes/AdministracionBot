@@ -217,11 +217,15 @@ if(message.content===("!f")){
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
-  &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
+  &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
     message.channel.send(message.author.toString()+" __**No se reconocio el comando,por favor compruebe el comando usando !comandos **__");
   }
    
+
+  if(message.content==="!test"){
+    message.channel.send(message.author.toString()+" **Gracias por testearme,la administracion esta ON**");
+  }
 
 
 });
