@@ -223,7 +223,7 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
   }
    
 
-  if(message.content==="!test"){
+  if(message.content===("!test")){
     message.channel.send(message.author.toString()+" **Gracias por testearme,la administracion esta ON**");
   }
 
