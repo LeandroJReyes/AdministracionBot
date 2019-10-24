@@ -59,7 +59,7 @@ if (message.content===("!capitanes")){
   if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes\n!torneo\n!judio\n!F\n!sale\n!lindo**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes\n!torneo\n!judio\n!F\n!sale\n!lindo\n!test**"
       
     }});
 
@@ -224,6 +224,7 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
    
 
   if(message.content===("!test")){
+    message.delete();
     message.channel.send(message.author.toString()+" **Gracias por testearme,la administracion esta ON**");
   }
 
