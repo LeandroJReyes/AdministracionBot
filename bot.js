@@ -205,7 +205,7 @@ if(message.content===("!f")){
 }
 
    
-if (message.content===("!lanz")){
+/*if (message.content===("!lanz")){
    message.delete();
  message.channel.send("[LNDC]©                                                                                                                                    25/10/2019\n\n"+
  "       La administración les recomienda a todos los jugadores que descarguen e instalen el software de GamersClub, lo pueden hacer accediendo directamente desde el siguiente link: http://acupdate.gamersclub.com.br/download\n"+
@@ -213,7 +213,7 @@ if (message.content===("!lanz")){
 "       \nSe habilita este canal para comunicar si algún miembro le ocurrió algún error dentro de la plataforma.\n"+
  "\nSin mas nada que agregar la Administración les desea suerte a ambos equipos.\n\n@here @everyone");
 
-}
+}*/
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
