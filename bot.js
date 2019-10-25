@@ -205,15 +205,15 @@ if(message.content===("!f")){
 }
 
    
-/*if (message.content===("!lanz")){
+if (message.content===("!lanz")){
    message.delete();
- message.channel.send("**La administracion ya sorteo los capitanes y ya se formaron los equipos, que son los siguientes:**\n\n"+
- "__Team Mancoman__                                      __Team Tuki__\n"+
- "    Clocken                                                MonsterWeed\n"+
- "    Branca                                                  Geno\n"+
- "    Santi                                                     Tinnico\n"+
- "    Adoxx                                                   Max"); 
-}*/
+ message.channel.send("[LNDC]©                                                                                                                                    25/10/2019\n\n"+
+ "La administración les recomienda a todos los jugadores que descarguen e instalen el software de GamersClub, lo pueden hacer accediendo directamente desde el siguiente link: http://acupdate.gamersclub.com.br/download\n"+
+ "Se hace esta recomendación para ahorrar tiempo en el evento que se llevara a cabo el día de mañana, también se les recomienda entrar a jugar una partida dentro de la plataforma, para corroborar que no tengan problemas con su cuenta (con entrar a algunos de sus servidores FFA ya es suficiente).\n"+
+"Se habilita este canal para comunicar si algún miembro le ocurrió algún error dentro de la plataforma.\n"+
+ "Sin mas nada que agregar la Administración les desea suerte a ambos equipos.");
+
+}
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
