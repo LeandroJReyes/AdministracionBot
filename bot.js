@@ -16,7 +16,7 @@ client.on("message", (message) => {
     var random1=Math.floor(Math.random() * 2)+1;
     switch(random1){
 case 1:message.channel.send("El que comienza eligiendo es: Mancoman");break;
-case 1:message.channel.send("El que comienza eligiendo es: Tuki");break;
+case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
 }
 
