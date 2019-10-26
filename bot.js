@@ -11,36 +11,14 @@ client.on("message", (message) => {
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
-  /*if (message.content===("!capitanes")){
-    var random1=Math.floor(Math.random() * 10)+1;  
-    var random2=Math.floor(Math.random()*10)+1;
-    while (random1==random2){random2=Math.floor(Math.random()*10)+1;}
-    message.channel.send("Los capitanes son:\n");
+  
+  if (message.content===("!capitanes")){
+    var random1=Math.floor(Math.random() * 2)+1;  
     switch(random1){
-case 1:message.channel.send("Santi"+" (Comienza eligiendo miembros)");break;
-case 2:message.channel.send("geno"+" (Comienza eligiendo miembros)");break;
-case 3:message.channel.send("Tinnico"+" (Comienza eligiendo miembros)");break;
-case 4:message.channel.send("MonsterWeed"+" (Comienza eligiendo miembros)");break;
-case 5:message.channel.send("branca"+" (Comienza eligiendo miembros)");break;
-case 6:message.channel.send("Tuki"+" (Comienza eligiendo miembros)");break;
-case 7:message.channel.send("Emiliano"+" (Comienza eligiendo miembros)");break;
-case 8:message.channel.send("clocken"+" (Comienza eligiendo miembros)");break;
-case 9:message.channel.send("Max"+" (Comienza eligiendo miembros)");break;
-case 10:message.channel.send("Adox"+" (Comienza eligiendo miembros)");break;
-    }
-   switch(random2){
-    case 1:message.channel.send("Santi");break;
-    case 2:message.channel.send("geno");break;
-    case 3:message.channel.send("Tinnico");break;
-    case 4:message.channel.send("MonsterWeed");break;
-    case 5:message.channel.send("branca");break;
-    case 6:message.channel.send("Tuki");break;
-    case 7:message.channel.send("Emiliano");break;
-    case 8:message.channel.send("clocken");break;
-    case 9:message.channel.send("Max");break;
-    case 10:message.channel.send("Adox");break;
-   }
-  }*/
+case 1:message.channel.send("El que comienza eliginedo es: Mancoman");
+case 1:message.channel.send("El que comienza eliginedo es: Mancoman");
+  }
+}
 
 if (message.content===("!capitanes")){
   message.channel.send("***\nLos capitanes ya se elijieron, son Mancoman y Tuki,los equipos ya estan designados***");
