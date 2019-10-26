@@ -11,7 +11,7 @@ client.on("message", (message) => {
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
-  
+
   if (message.content===("!capitanes")){
     var random1=Math.floor(Math.random() * 2)+1;  
     switch(random1){
@@ -20,9 +20,9 @@ case 1:message.channel.send("El que comienza eliginedo es: Mancoman");
   }
 }
 
-if (message.content===("!capitanes")){
+/*if (message.content===("!capitanes")){
   message.channel.send("***\nLos capitanes ya se elijieron, son Mancoman y Tuki,los equipos ya estan designados***");
-}
+}*/
 
   if (message.content===("!patada")){
     message.channel.send({files:["./image/tinnico.gif"]});
