@@ -13,7 +13,7 @@ client.on("message", (message) => {
   }
 
   if (message.content===("!capitanes")){
-    var random1=Math.floor(Math.random() * 2)+1;  
+    var random1=Math.floor(Math.random() * 2)+1;
     switch(random1){
 case 1:message.channel.send("El que comienza eligiendo es: Mancoman");break;
 case 1:message.channel.send("El que comienza eligiendo es: Tuki");break;
