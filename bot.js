@@ -183,15 +183,23 @@ if(message.content===("!f")){
 }
 
    
-/*if (message.content===("!lanz")){
+if (message.content===("!lanz")){
    message.delete();
- message.channel.send("[LNDC]©                                                                                                                                    25/10/2019\n\n"+
- "       La administración les recomienda a todos los jugadores que descarguen e instalen el software de GamersClub, lo pueden hacer accediendo directamente desde el siguiente link: http://acupdate.gamersclub.com.br/download\n"+
- "       \nSe hace esta recomendación para ahorrar tiempo en el evento que se llevara a cabo el día de mañana, también se les recomienda entrar a jugar una partida dentro de la plataforma, para corroborar que no tengan problemas con su cuenta (con entrar a algunos de sus servidores FFA ya es suficiente).\n"+
-"       \nSe habilita este canal para comunicar si algún miembro le ocurrió algún error dentro de la plataforma.\n"+
- "\nSin mas nada que agregar la Administración les desea suerte a ambos equipos.\n\n@here @everyone");
+ message.channel.send("[LNDC]©                                                                                                                                    31/10/2019\n\n"+
 
-}*/
+ "La Administración ha tomado la decisión de jugar el ultimo mapa del torneo 5v5 (mirage) el día domingo 03/11/2019 a partir de la hora 16:30, debido a que nuestro programador designado MonsterWeed ha hablado con alguno de los integrantes para tomar una fecha en común.\n"+
+ "Les informamos a los participantes que hay algunos cambios en miembros de equipo que se muestra continuación:\n"+
+ "__Team Mancoman__                                    __Team Tuki__\n"+
+     "Clocken                                                MonsterWeed\n"+
+     "Titi                                                        Branca\n"+
+     "Santi                                                     Tinnico\n"+
+     "Adoxx                                                   Max\n\n"+
+   "Se les recomienda a TODOS los participantes que confirmen que pueden jugar el día domingo a las 16:30 horas para llevar a cabo el evento.\n"+
+   "Desde ya muchas gracias.\n"+
+ "ATT: Administración");
+ 
+
+}
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
