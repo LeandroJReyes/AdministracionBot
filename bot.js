@@ -12,13 +12,13 @@ client.on("message", (message) => {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
 
-  if (message.content===("!capitanes")){
+  /*if (message.content===("!capitanes")){
     var random1=Math.floor(Math.random() * 2)+1;
     switch(random1){
 case 1:message.channel.send("El que comienza eligiendo es: Mancoman");break;
 case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
-}
+}*/
 
 /*if (message.content===("!capitanes")){
   message.channel.send("***\nLos capitanes ya se elijieron, son Mancoman y Tuki,los equipos ya estan designados***");
@@ -37,7 +37,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   if (message.content===("!comandos")){
     message.channel.send({embed: {
       color: 3447003,
-      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!capitanes\n!torneo\n!judio\n!F\n!sale\n!lindo\n!test**"
+      description: "__Los comandos actuales en el servidor son:__\n\n**!puestada\n!baja\n!inflacion\n!patada\n!host\n!limpiar\n!torneo\n!judio\n!F\n!sale\n!lindo\n!test**"
       
     }});
 
@@ -199,7 +199,7 @@ if(message.content===("!f")){
 }*/
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
-  &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!capitanes")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
+  &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
     message.channel.send(message.author.toString()+" __**No se reconocio el comando,por favor compruebe el comando usando !comandos **__");
