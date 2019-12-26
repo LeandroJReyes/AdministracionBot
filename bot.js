@@ -56,7 +56,14 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
 }  
    
 if(message.content===("!limpiar")){
+  if(message.author.toString()=="@MonsterWeed")
+  {
+    message.channel.send("La yiyeaste");
+  }
+  else
+  {
   message.channel.send("limpiando... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
+  }
   }
    
    
