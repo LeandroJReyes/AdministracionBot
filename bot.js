@@ -6,19 +6,9 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
+  
  if(message.content.startsWith("ping")) {
    message.channel.send("pong!");
- }
-
- if(message.content.startsWith("!nonsdaasd"))
- {
-   message.channel.send
-   ("La administracion se enorgullece en presentar su nuevo atuendo.\n\n"+
-   " programado y diseñfcggado por: MonsterPorro\n "+
-   "@here"
-   )
-   
-  
  }
 
 });
