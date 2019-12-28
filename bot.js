@@ -206,6 +206,11 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
     message.channel.send("["+message.author.toString()+"]"+" **Gracias por testearme,la administracion esta ON** ");
   }
 
+  if(message.content===("!limpiar"))
+  {
+    message.channel.send("Limpiando.... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :newspaper:");
+  }
+
   
 
 });
