@@ -55,14 +55,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   message.channel.send({files:["./image/baja.gif"]});
 }  
    
-if(message.content===("!limpiar")){
-  message.channel.send("limpiando... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :page_facing_up: ");
- 
-  }
-   
-   
 
-   
    //nuevos comandos (Alpha)
     
    if(message.content===("!lindo")){
