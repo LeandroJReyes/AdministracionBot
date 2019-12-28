@@ -4,6 +4,10 @@ const  client = new Discord.Client();
 client.on("ready", () => {
    console.log("Estoy listo!");
   client.user.setActivity('!comandos', { type: 'LISTENING' });
+});
+
+
+client.on("message", (message) => {
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
@@ -201,9 +205,6 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
     message.channel.send("["+message.author.toString()+"]"+" **Gracias por testearme,la administracion esta ON** ");
   }
 
-  
-});
-client.on("message", (message) => {
   
 
 });
