@@ -147,6 +147,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
           message.channel.send("Tinnico",{files:["./image/tinnico2.png"]});}
           if(tres==3){
           message.channel.send("Tinnico",{files:["./image/tinnico3.jpg"]});}
+          
    break;
      }
   } 
@@ -195,10 +196,14 @@ if(message.content===("!f")){
    
 if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
-  &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
+  &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
     message.channel.send(message.author.toString()+" __**No se reconocio el comando,por favor compruebe el comando usando !comandos **__");
   }
+
+  if(message.content===("!mimir")){
+    message.channel.send({files:["./image/mimir.jpg"]});
+  }  
    
 
   if(message.content===("!test").toLowerCase()){
@@ -211,6 +216,17 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
     message.channel.send("Limpiando.... \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPantalla Limpia :newspaper:");
   }
 
+  if(message.content===("!5v5")){
+    message.delete();
+    message.channel.send("[LNDC]©                                                                                                                                    02/05/2020\n\n"+
+    "La Administracion se complace en presentar el nuevo canal de texto 5v5, el cual servira para organizar eventos 5 versus 5."+
+    "\n Este canal permanecera abierto a todos, de modo que se les agradece **NO** usar comandos dentro de este canal, y solo sea utilizado para organizar el evento 5v5."+
+    "A continuacion tendran 2 canales de voz que seran utilizados cuando el evento este en curso.")
+
+  }
+   
+
+  
   
 
 });
