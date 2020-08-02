@@ -20,6 +20,9 @@ client.on("ready", () => {
 
 client.on('message', (receivedMessage) => { 
 try{
+  if (receivedMessage.author == client.user) {
+    return
+}
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("DE: "+receivedMessage.author.toString()+"Mensaje: "+receivedMessage.toString());
 }
