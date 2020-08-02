@@ -11,11 +11,22 @@ client.on("ready", () => {
     sentMessage.react('✅');
     sentMessage.react('❌');
   });
-  //generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?");
+  /*generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?").then(sentMessage => {
+    sentMessage.react('✅');
+    sentMessage.react('❌');
+  });*/
   
-  //generalChannel.react('❌');
-  //generalChannel.message.react('✅');
 });
+
+client.on('message', (receivedMessage) => { 
+try{
+var chanelmensaje=client.channels.get("739617321446014997");
+chanelmensaje.send("DE: "+message.author.toString()+"Mensaje: "+receivedMessage.toString());
+}
+catch(error)
+{message.send("Error de mensajeee");}
+
+})
 
 
 client.on("message", (message) => {
