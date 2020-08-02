@@ -20,7 +20,7 @@ client.on("ready", () => {
 
 client.on('message', (receivedMessage) => { 
 try{
-  if (receivedMessage.author.bot||receivedMessage.channels) {
+  if (receivedMessage.author.bot||receivedMessage.channel.type!="dm"){
     return
 }
 var chanelmensaje=client.channels.get("739617321446014997");
