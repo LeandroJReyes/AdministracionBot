@@ -53,10 +53,12 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
    
    if (message.content===("!host")){
-    message.react('739325798204571669');
+     
+    const ayy = client.emojis.get("739325798204571669");
+    message.react(ayy);
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
-   
+
    if(message.content===("!baja")){
   message.channel.send({files:["./image/baja.gif"]});
 }  
