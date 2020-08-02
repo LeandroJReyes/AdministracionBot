@@ -6,8 +6,8 @@ client.on("ready", () => {
   client.user.setActivity('!comandos', { type: 'LISTENING' });
 
   var generalChannel = client.channels.get("587678594525036568"); // Replace with known channel ID
-  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?");  
-  generalChannel.react('❌');
+  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?",react('❌'));  
+  //generalChannel.react('❌');
   //generalChannel.message.react('✅');
 });
 
@@ -38,6 +38,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
    if(message.content===("!inflacion")){
   message.channel.send( "La inflacion es siempre y en todo lugar un FENOMENO MONETARIO",{files:["./image/milei.jpg"]});
+  
 }
 
   if (message.content===("!comandos")){
