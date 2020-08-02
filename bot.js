@@ -14,7 +14,7 @@ client.on("ready", () => {
 
 
 client.on("message", (message) => {
-  if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author===("628731361242513418")){
+  if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
   }
 
