@@ -14,7 +14,10 @@ client.on("ready", () => {
 
 
 client.on("message", (message) => {
-  
+  if(message.content===("__**Volvi a estar Online manga de cornetas, me extrañaron?**__")&&message.author===("628731361242513418")){
+    message.react('✅');
+  }
+
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
   }
