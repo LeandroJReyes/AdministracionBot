@@ -6,7 +6,8 @@ client.on("ready", () => {
   client.user.setActivity('!comandos', { type: 'LISTENING' });
 
   var generalChannel = client.channels.get("587678594525036568"); // Replace with known channel ID
-  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?",react('❌'));  
+  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?");
+  generalChannel.send.react('❌');
   //generalChannel.react('❌');
   //generalChannel.message.react('✅');
 });
