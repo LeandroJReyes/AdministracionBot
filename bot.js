@@ -26,11 +26,14 @@ try{
 if(receivedMessage.startsWith("!")&&!receivedMessage.endsWith("!"))
 {
   receivedMessage.author.send("No se puede utilizar comandos del servidor en Mensajes privados.");
- return
+ 
 }
+else
+{
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
 receivedMessage.author.send("Mensaje Recibido con exito!");
+}
 }
 catch(error)
 {receivedMessage.author.send("Error de mensajeee");}
