@@ -7,7 +7,10 @@ client.on("ready", () => {
 
   var generalChannel = client.channels.get("587678594525036568"); // Replace with known channel ID
   var generalChannel2 = client.channels.get("277915104018825226");
-  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?");
+  generalChannel.send("Volvi a estar Online manga de cornetas, me extrañaron?").then(sentMessage => {
+    sentMessage.react('✅');
+    sentMessage.react('❌');
+  });
   //generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?");
   
   //generalChannel.react('❌');
@@ -16,11 +19,11 @@ client.on("ready", () => {
 
 
 client.on("message", (message) => {
-  if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
+  /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
     
-  }
+  }*/
 
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
