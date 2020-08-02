@@ -53,7 +53,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
    
    if (message.content===("!host")){
-    receivedMessage.react(":eyes:");
+    message.react('😄');
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
