@@ -15,10 +15,20 @@ client.on("ready", () => {
 });
 
 
+client.on("message", (generalChannel) => {
+
+  if(message.content===("!tetete"))
+  {
+    message.channel.send("asdasdasd");
+  }
+
+});
+
 client.on("message", (message) => {
   if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
+    
   }
 
   if (message.content===("!puestada")) {
