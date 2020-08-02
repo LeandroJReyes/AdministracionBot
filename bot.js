@@ -4,6 +4,10 @@ const  client = new Discord.Client();
 client.on("ready", () => {
    console.log("Estoy listo!");
   client.user.setActivity('!comandos', { type: 'LISTENING' });
+
+  var generalChannel = client.channels.get("587678594525036568"); // Replace with known channel ID
+  generalChannel.send("Volvi manga de cornetas, me extrañaron?");  
+
 });
 
 
@@ -49,6 +53,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
   }
    
    if (message.content===("!host")){
+    receivedMessage.react("👍");
     message.channel.send("\n__**Mi creador MonsterWeed ya me hosteo y ahora soy mas rapido y eficaz :yum:**__");
   }
    
