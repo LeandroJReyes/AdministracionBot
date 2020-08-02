@@ -23,6 +23,7 @@ try{
   if (receivedMessage.author.bot||receivedMessage.channel.type!="dm"){
     return
 }
+
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
 receivedMessage.author.send("Mensaje Recibido con exito!");
@@ -34,7 +35,8 @@ catch(error)
 
 
 client.on("message", (message) => {
-  
+if(message.channel.type!="dm")
+{
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
@@ -258,7 +260,7 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
 
   }
    
-
+}
   
   
 
