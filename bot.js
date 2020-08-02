@@ -23,7 +23,11 @@ try{
   if (receivedMessage.author.bot||receivedMessage.channel.type!="dm"){
     return
 }
-
+if(receivedMessage.startsWith("!")&&!receivedMessage.endsWith("!"))
+{
+  receivedMessage.author.send("No se puede utilizar comandos del servidor en Mensajes privados.");
+ return
+}
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
 receivedMessage.author.send("Mensaje Recibido con exito!");
