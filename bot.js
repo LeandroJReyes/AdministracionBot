@@ -21,10 +21,10 @@ client.on("ready", () => {
 client.on('message', (receivedMessage) => { 
 try{
 var chanelmensaje=client.channels.get("739617321446014997");
-chanelmensaje.send("DE: "+message.author.toString()+"Mensaje: "+receivedMessage.toString());
+chanelmensaje.send("DE: "+receivedMessage.author.toString()+"Mensaje: "+receivedMessage.toString());
 }
 catch(error)
-{message.send("Error de mensajeee");}
+{receivedMessage.author.send("Error de mensajeee");}
 
 })
 
