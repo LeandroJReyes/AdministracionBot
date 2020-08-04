@@ -45,6 +45,12 @@ async function play(voiceChannel) {
 	connection.play({files:["./image/puta.mp3"]});
 }
 
+/*bot.on("message", async (message) => {
+
+
+});*/
+
+
 
 client.on("message", (message) => {
 if(message.channel.type!="dm")
@@ -56,7 +62,7 @@ if(message.channel.type!="dm")
   }*/
   if (message.content===("!puta"))
   {
-    play(client.channel.get("587391250810798264"));
+    play(message.member.voice.channel);
   }
 
   if (message.content===("!puestada")) {
