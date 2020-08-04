@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const  client = new Discord.Client();
-
-const sss=new Client({ disableEveryone:true})
+const ytdl=require('ytdl-core');
+const sss=new Client({ disableEveryone:true});
 
 client.on("ready", () => {
    console.log("Estoy listo!");
