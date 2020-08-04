@@ -62,7 +62,8 @@ if(message.channel.type!="dm")
 
   if(message.content===("!puta"))
   {
-    message.member.voiceChannel.join();
+    var ssdddd = client.channels.get("587678594525036570");
+    ssdddd.voiceChannel.join();
 
   }
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
