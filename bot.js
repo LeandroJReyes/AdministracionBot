@@ -63,8 +63,14 @@ if(message.channel.type!="dm")
   if (message.content===("!puta"))
   {
     try
- {
-    play(message.member.voice.channel);
+    {
+    if (!permissions.has("CONNECT")) {
+      return message.channel.send("Sorry, but I need a **`CONNECT`** permission to proceed!");
+  }
+  if (permissions.has("SPEAK")) {
+      return message.channel.send("Sorry, but I need a **`SPEAK`** permission to proceed!");
+  }
+    
 }
 catch(errr)
 {message.channel.send("Exploto todo bebe.");}
