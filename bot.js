@@ -18,6 +18,16 @@ client.on("ready", () => {
   
 });
 
+client.on('message', async message=> {
+if(message.content===("!puta"))
+{
+  if(message.author.bot)
+  return;
+  message.author.voiceChannel.join();
+}
+
+});
+
 client.on('message', (receivedMessage) => { 
 try{
   if (receivedMessage.author.bot||receivedMessage.channel.type!="dm"){
