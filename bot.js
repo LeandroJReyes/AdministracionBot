@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const  client = new Discord.Client();
 const ytdl=require('ytdl-core');
-const sss=new Client({ disableEveryone:true});
+
 
 client.on("ready", () => {
    console.log("Estoy listo!");
@@ -20,15 +20,6 @@ client.on("ready", () => {
   
 });
 
-sss.on('message', async message=> {
-if(message.content===("!puta"))
-{
-  if(message.author.bot)
-  return;
-  message.author.voiceChannel.join();
-}
-
-});
 
 client.on('message', (receivedMessage) => { 
 try{
