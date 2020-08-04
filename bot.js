@@ -29,6 +29,7 @@ if(receivedMessage.content.startsWith("!")&&!receivedMessage.content.endsWith("!
   return
 }
 
+
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
 receivedMessage.author.send("Mensaje Recibido con exito!");
@@ -39,6 +40,11 @@ catch(error)
 
 })
 
+async function play(voiceChannel) {
+	const connection = await voiceChannel.join();
+	connection.play({files:["./image/puta.mp3"]});
+}
+
 
 client.on("message", (message) => {
 if(message.channel.type!="dm")
@@ -48,6 +54,10 @@ if(message.channel.type!="dm")
     message.react('❌');
     
   }*/
+  if (message.content===("!puta"))
+  {
+    play(client.channel.get("587391250810798264"));
+  }
 
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
@@ -235,7 +245,7 @@ if(message.content===("!f")){
  "ATT: Administración");
 }*/
    
-if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
@@ -267,8 +277,6 @@ if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.co
   }
    
 }
-  
-  
 
 });
 client.login(process.env.BOT_TOKEN);
