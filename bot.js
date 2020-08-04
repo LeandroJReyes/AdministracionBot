@@ -63,13 +63,7 @@ if(message.channel.type!="dm")
   if (message.content===("!puta"))
   {
     try
-    {
-    if (!permissions.has("CONNECT")) {
-      return message.channel.send("Sorry, but I need a **`CONNECT`** permission to proceed!");
-  }
-  if (permissions.has("SPEAK")) {
-      return message.channel.send("Sorry, but I need a **`SPEAK`** permission to proceed!");
-  }
+ {
     play(message.member.voice.channel);
 }
 catch(errr)
