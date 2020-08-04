@@ -45,10 +45,21 @@ async function play(voiceChannel) {
 	connection.play({files:["./image/puta.mp3"]});
 }
 
-/*bot.on("message", async (message) => {
+bot.on("message", async (message) => {
 
+  if (message.content===("!puta"))
+  {
+    try
+    {
+   message.author.voiceChannel.join();
+    
+}
+catch(errr)
+{message.channel.send("Exploto todo bebe.");}
 
-});*/
+  }
+
+});
 
 
 
@@ -60,22 +71,7 @@ if(message.channel.type!="dm")
     message.react('❌');
     
   }*/
-  if (message.content===("!puta"))
-  {
-    try
-    {
-    if (!permissions.has("CONNECT")) {
-      return message.channel.send("Sorry, but I need a **`CONNECT`** permission to proceed!");
-  }
-  if (permissions.has("SPEAK")) {
-      return message.channel.send("Sorry, but I need a **`SPEAK`** permission to proceed!");
-  }
-    
-}
-catch(errr)
-{message.channel.send("Exploto todo bebe.");}
-
-  }
+ 
 
   if (message.content===("!puestada")) {
     message.channel.send("con toda la puestada con toda la puestada ayer pille dossss y hoy otros doossss",{files:["./image/puestadaa.gif"]});
