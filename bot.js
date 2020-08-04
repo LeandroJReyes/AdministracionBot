@@ -56,18 +56,13 @@ async function play(voiceChannel) {
 client.on("message", (message) => {
 if(message.channel.type!="dm")
 {
-  
+
   if (message.content===("!puta"))
   {
-    try
-    {
-   message.author.voiceChannel.join();
     
+   message.author.voiceChannel.join();
 }
-catch(errr)
-{message.channel.send("Exploto todo bebe.");}
-
-  }
+  
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
