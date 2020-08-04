@@ -45,8 +45,18 @@ async function play(voiceChannel) {
 	connection.play({files:["./image/puta.mp3"]});
 }
 
-bot.on("message", async (message) => {
+/*bot.on("message", async (message) => {
 
+ 
+
+});*/
+
+
+
+client.on("message", (message) => {
+if(message.channel.type!="dm")
+{
+  
   if (message.content===("!puta"))
   {
     try
@@ -58,14 +68,6 @@ catch(errr)
 {message.channel.send("Exploto todo bebe.");}
 
   }
-
-});
-
-
-
-client.on("message", (message) => {
-if(message.channel.type!="dm")
-{
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
