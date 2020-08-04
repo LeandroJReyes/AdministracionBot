@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const  client = new Discord.Client();
 
+const sss=new Client({ disableEveryone:true})
+
 client.on("ready", () => {
    console.log("Estoy listo!");
   client.user.setActivity('!comandos', { type: 'LISTENING' });
@@ -18,7 +20,7 @@ client.on("ready", () => {
   
 });
 
-client.on('message', async message=> {
+sss.on('message', async message=> {
 if(message.content===("!puta"))
 {
   if(message.author.bot)
