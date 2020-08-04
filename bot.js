@@ -60,12 +60,11 @@ client.on("message", (message) => {
 if(message.channel.type!="dm")
 {
 
-  /*if (message.content===("!puta"))
+  if(message.content===("!puta"))
   {
-    
-   message.author.voiceChannel.join();
-}*/
-  
+    message.member.voiceChannel.join();
+
+  }
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
