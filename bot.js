@@ -52,7 +52,7 @@ if(message.channel.type!="dm")
   {
     try
     {
-      if (message.member.voice.channel) 
+      if (message.member.voiceChannel) 
       {
 	    	message.channel.send("Estras dentro");
       }
