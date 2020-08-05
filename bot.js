@@ -56,6 +56,7 @@ if(message.channel.type!="dm")
       {
         message.member.voiceChannel.join().then(connection => {
           const dispatcher = connection.playFile("./image/puta.mp3");
+          dispatcher.on('end', end => message.member.voiceChannel.leave());
 
         });
         message.channel.send("Estras dentro");
