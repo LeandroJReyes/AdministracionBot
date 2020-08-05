@@ -62,8 +62,10 @@ if(message.channel.type!="dm")
 
   if(message.content===("!puta"))
   {
-    var ssdddd = client.channels.get("587678594525036570");
-    ssdddd.voiceChannel.join();
+    if(message.member.voice.channel){
+    message.channel.send("EStas dentro");}
+    else
+    {message.channel.send("Estas fuera");}
 
   }
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
