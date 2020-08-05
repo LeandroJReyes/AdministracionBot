@@ -44,7 +44,7 @@ catch(error)
 });
 
 
-client.on("message", (message) => {
+client.on("message", async (message) => {
 if(message.channel.type!="dm")
 {
   
@@ -54,7 +54,7 @@ if(message.channel.type!="dm")
     {
       if (message.member.voiceChannel) 
       {
-        message.member.voice.channel.join();
+        message.member.voiceChannel.join();
         message.channel.send("Estras dentro");
       }
       else
