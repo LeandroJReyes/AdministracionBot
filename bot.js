@@ -62,7 +62,7 @@ if(message.channel.type!="dm")
 
   if(message.content===("!puta"))
   {
-    if(message.member.voice.channel){
+    if(message.author.voice.channel){
     message.channel.send("EStas dentro");}
     else
     {message.channel.send("Estas fuera");}
