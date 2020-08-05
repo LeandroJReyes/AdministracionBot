@@ -54,7 +54,7 @@ if(message.channel.type!="dm")
     {
       if (message.member.voiceChannel) 
       {
-        message.member.voiceChannel.join();
+        message.member.voice.channel.join();
         message.channel.send("Estras dentro");
       }
       else
