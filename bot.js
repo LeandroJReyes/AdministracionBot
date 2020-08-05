@@ -56,7 +56,7 @@ if(message.channel.type!="dm")
       {
         message.member.voiceChannel.join();
         message.channel.send("Estras dentro");
-        message.member.voiceChannel.play({files:["./image/puta.mp3"]});
+        message.member.voiceChannel.playStream({files:["./image/puta.mp3"]});
       }
       else
       {
