@@ -43,10 +43,15 @@ catch(error)
 
 })
 
-async function play(voiceChannel) {
-	const connection = await voiceChannel.join();
-	connection.play({files:["./image/puta.mp3"]});
+client.on('message', async message => {
+  // Join the same voice channel of the author of the message
+  if(message.content===("!puta"))
+  {
+	if (message.member.voice.channel) {
+		const connection = await message.member.voice.channel.join();
+  }
 }
+});
 
 /*bot.on("message", async (message) => {
 
@@ -60,14 +65,7 @@ client.on("message", (message) => {
 if(message.channel.type!="dm")
 {
 
-  if(message.content===("!puta"))
-  {
-    if(message.author.voiceChannel){
-    message.channel.send("EStas dentro");}
-    else
-    {message.channel.send("Estas fuera");}
 
-  }
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
     message.react('❌');
