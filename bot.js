@@ -62,13 +62,33 @@ if(message.channel.type!="dm")
       }
       else
       {
-      message.channel.send("No estras dentro");
+      message.channel.send("No estas en un channel de voz");
       }
     }
     catch(errorr)
     {message.channel.send(errorr.toString());}
   }
   
+  if(message.content===("!leche"))
+  {
+    try
+    {
+      if (message.member.voiceChannel) 
+      {
+        message.delete();
+        message.member.voiceChannel.join().then(connection => {
+          const dispatcher = connection.playFile("./image/leche.mp3");
+          dispatcher.on('end', end => message.member.voiceChannel.leave());
+        });
+      }
+      else
+      {
+      message.channel.send("No estas en un channel de voz");
+      }
+    }
+    catch(errorr)
+    {message.channel.send(errorr.toString());}
+  }
 
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
@@ -263,7 +283,7 @@ if(message.content===("!f")){
  "ATT: Administración");
 }*/
    
-if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+if (message.content.startsWith("!")&&message.content!==("!comandos")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
