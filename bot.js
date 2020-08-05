@@ -41,24 +41,19 @@ receivedMessage.author.send("Mensaje Recibido con exito!");
 catch(error)
 {receivedMessage.author.send("Error de mensajeee");}
 
-})
+});
 
 client.on('message', async message => {
   // Join the same voice channel of the author of the message
   if(message.content===("!puta"))
+	if (message.member.voice.channel) {
+		message.channel.send("Estras dentro");
+  }
+  else
   {
-	 message.member.voice.channel.join();
-  
-}
+    message.channel.send("No estras dentro");
+  }
 });
-
-/*bot.on("message", async (message) => {
-
- 
-
-});*/
-
-
 
 client.on("message", (message) => {
 if(message.channel.type!="dm")
