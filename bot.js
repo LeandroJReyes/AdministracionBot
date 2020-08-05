@@ -47,16 +47,25 @@ catch(error)
 client.on("message", (message) => {
 if(message.channel.type!="dm")
 {
+  
   if(message.content===("!puta"))
   {
-	if (message.member.voice.channel) {
-		message.channel.send("Estras dentro");
-  }
+    try
+    {
+      if (message.member.voice.channel) 
+      {
+	    	message.channel.send("Estras dentro");
+      }
   else
   {
     message.channel.send("No estras dentro");
   }
 }
+  
+catch(errorr)
+{message.channel.send(errorr);}
+  }
+  
 
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
