@@ -43,8 +43,10 @@ catch(error)
 
 });
 
-client.on('message', async message => {
-  // Join the same voice channel of the author of the message
+
+client.on("message", (message) => {
+if(message.channel.type!="dm")
+{
   if(message.content===("!puta"))
 	if (message.member.voice.channel) {
 		message.channel.send("Estras dentro");
@@ -53,12 +55,6 @@ client.on('message', async message => {
   {
     message.channel.send("No estras dentro");
   }
-});
-
-client.on("message", (message) => {
-if(message.channel.type!="dm")
-{
-
 
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
