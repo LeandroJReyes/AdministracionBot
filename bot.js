@@ -48,6 +48,7 @@ client.on("message", (message) => {
 if(message.channel.type!="dm")
 {
   if(message.content===("!puta"))
+  {
 	if (message.member.voice.channel) {
 		message.channel.send("Estras dentro");
   }
@@ -55,6 +56,7 @@ if(message.channel.type!="dm")
   {
     message.channel.send("No estras dentro");
   }
+}
 
   /*if(message.content===("Volvi a estar Online manga de cornetas, me extrañaron?")&&message.author.bot){
     message.react('✅');
