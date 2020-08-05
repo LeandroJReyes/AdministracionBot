@@ -55,7 +55,7 @@ if(message.channel.type!="dm")
       if (message.member.voiceChannel) 
       {
         message.member.voiceChannel.join().then(connection => {
-          connection.play('/image/puta.mp3')
+          connection.play('/image/puta.mp3', { volume: 0.5 });
 
         });
         message.channel.send("Estras dentro");
