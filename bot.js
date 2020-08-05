@@ -55,9 +55,9 @@ if(message.channel.type!="dm")
       if (message.member.voiceChannel) 
       {
         message.member.voiceChannel.join().then(connection => {
-          const dispatcher = connection.playFile("./image/Mafia.mp3");
+          const dispatcher = connection.playFile("./image/Puta.mp3");
           dispatcher.on('end', end => message.member.voiceChannel.leave());
-          
+
         });
       }
       else
