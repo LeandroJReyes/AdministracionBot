@@ -56,14 +56,13 @@ if(message.channel.type!="dm")
       {
 	    	message.channel.send("Estras dentro");
       }
-  else
-  {
-    message.channel.send("No estras dentro");
-  }
-}
-  
-catch(errorr)
-{message.channel.send(errorr);}
+      else
+      {
+      message.channel.send("No estras dentro");
+      }
+    }
+    catch(errorr)
+    {message.channel.send(errorr.toString());}
   }
   
 
