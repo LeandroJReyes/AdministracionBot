@@ -13,10 +13,10 @@ client.on("ready", () => {
     sentMessage.react('✅');
     sentMessage.react('❌');
   });
-  generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?").then(sentMessage => {
+  /*generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?").then(sentMessage => {
     sentMessage.react('✅');
     sentMessage.react('❌');
-  });
+  });*/
   
 });
 
