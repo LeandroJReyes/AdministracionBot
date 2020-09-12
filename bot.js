@@ -167,7 +167,7 @@ case 2:message.channel.send("El que comienza eligiendo es: Tuki");break;
 } 
 
 if(message.content===("!sopleteada")){
-  message.channel.send(message.author.toString()+" se fue sopletea2",{files:["./image/sop.png"]});
+  message.channel.send(message.author.toString()+" se fue sopletea2 y le dio un flashback",{files:["./image/sop.png"]});
 }
    
 
@@ -308,7 +308,7 @@ if(message.content===("!f")){
  "ATT: Administración");
 }*/
    
-if (message.content.startsWith("!")&&message.content===("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+if (message.content.startsWith("!")&&message.content!==("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
