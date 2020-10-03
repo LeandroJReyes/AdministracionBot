@@ -13,6 +13,11 @@ client.on("ready", () => {
     sentMessage.react('✅');
     sentMessage.react('❌');
   });
+  var cannelqueja = client.channels.get("479096159198117888");
+  generalChannel.send("03/10/2020                              [LNDC]\n \t La solicutud ha sido recibida con exito y la administracion ha decidido abrir una votacion para la postulacion de Pachu.\nLa votacion cerrara el dia 11/10/2020.").then(sentMessage => {
+    sentMessage.react('✅');
+    sentMessage.react('❌');
+  });
   /*generalChannel2.send("Volvi a estar Online manga de cornetas, me extrañaron?").then(sentMessage => {
     sentMessage.react('✅');
     sentMessage.react('❌');
