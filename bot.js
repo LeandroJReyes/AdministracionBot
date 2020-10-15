@@ -14,7 +14,7 @@ client.on("ready", () => {
     sentMessage.react('❌');
   });
   var cannelqueja = client.channels.get("479096159198117888");
-  generalChannel.send("[LNDC]©                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  15/10/2020  \n \t La solicitud de Pachu ha sido rechazada por votacion, igualmente la Administracion abre la votacion para la administracion de Mancoman \n @here",{files:["./image/admin.jpg"]}).then(sentMessage => {
+  generalChannel.send("[LNDC]©                                                                       \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  15/10/2020  \n \t La solicitud de Pachu ha sido rechazada por votacion, igualmente la Administracion decidio abrir la votacion para la postulacion de Mancoman, la votacion cierra el dia 22/10/2020. \n @here",{files:["./image/admin.jpg"]}).then(sentMessage => {
     sentMessage.react('✅');
     sentMessage.react('❌');
   });
