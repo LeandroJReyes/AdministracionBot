@@ -60,22 +60,22 @@ if(message.content.startsWith("!msg"))
 {
   try
   {
-var usuario=client.users.get("277261718294626304");
+      var usuario=client.users.get("277261718294626304");
 
 
       if(usuario===message.author)
       {
-        message.channel.send("sos el pequeño MonsterPorris");
+        
         var generalChannel = client.channels.get("739617321446014997");
         let mensajitooo = message.content.substring(4,message.content.length);
-
-        generalChannel.send(mensajitooo);
-
+        let idChannel=message.content.substring(4,22);
+        var channelsito=client.channels.get(idChannel);
+        channelsito.send(mensajitooo);
 
       }
       else
       {
-        message.channel.send("Vos no sos MonsterPorro cornudo");
+        message.channel.send("Usted no tiene acceso a este comando!");
       }
   }
   catch(eerr)
