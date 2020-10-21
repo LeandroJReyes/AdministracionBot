@@ -66,6 +66,12 @@ var usuario=client.users.get("277261718294626304");
       if(usuario===message.author)
       {
         message.channel.send("sos el pequeño MonsterPorris");
+        var generalChannel = client.channels.get("587678594525036568");
+        let mensajitooo = message.content.substring(4,message.content.length);
+
+        generalChannel.send(mensajitooo);
+
+
       }
       else
       {
