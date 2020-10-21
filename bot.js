@@ -92,10 +92,10 @@ if(message.content.startsWith("!msgpr"))
         if(usuario===message.author)
         {
         
-          var mensajitooo = message.content.substring(23,message.content.length).toString();
-          var iddestinatario=message.content.substring(5,23).toString();
+          var mensajitooo = message.content.substring(25,message.content.length).toString();
+          var iddestinatario=message.content.substring(7,25).toString();
           var destinatariofinal=client.users.get(iddestinatario.toString());
-          message.destinatariofinal.send(mensajitooo.toString());
+          destinatariofinal.send(mensajitooo.toString());
   
         }
         else
