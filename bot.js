@@ -42,7 +42,7 @@ if(receivedMessage.content.startsWith("!")&&!receivedMessage.content.endsWith("!
 
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
-receivedMessage.author.send("Mensaje Recibido con exito!");
+//receivedMessage.author.send("Mensaje Recibido con exito!");
 
 }
 catch(error)
