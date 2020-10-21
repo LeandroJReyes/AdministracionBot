@@ -62,7 +62,7 @@ if(message.content.startsWith("!msg"))
   {
 //var usuario=client.user.get("277261718294626304");
 const userId = message.guild.members.find(m => m.id === "277261718294626304");
-      if(message.author===userId)
+      if(message.author.toString()==="@MonsterWeed#3693")
       {
         message.channel.send("sos vos");
       }
