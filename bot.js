@@ -70,7 +70,7 @@ if(message.content.startsWith("!msg"))
         let mensajitooo = message.content.substring(4,message.content.length);
         let idChannel=message.content.substring(4,22);
         var channelsito=client.channels.get(idChannel);
-        channelsito.send(mensajitooo);
+        channelsito.send(mensajitooo.toString());
 
       }
       else
