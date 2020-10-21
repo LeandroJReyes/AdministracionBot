@@ -54,6 +54,25 @@ catch(error)
 client.on("message", async (message) => {
 if(message.channel.type!="dm")
 {
+
+
+if(message.startsWith("!msg"))
+{
+  try
+  {
+var usuario=client.user.get("277261718294626304");
+if(usuario===message.author)
+{
+  var msg=message.content.toString();
+  message.channel.send(msg);
+
+}
+  }
+  catch(eerr)
+  {message.channel.send(eerr.toString());}
+
+}
+
   if(message.content===("!puta"))
   {
     try
