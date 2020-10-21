@@ -60,13 +60,8 @@ if(message.content.startsWith("!msg"))
 {
   try
   {
-var usuario=client.user.get("277261718294626304");
-if(usuario===message.author)
-{
-  var msg=message.content.toString();
-  message.channel.send(msg);
-
-}
+//var usuario=client.user.get("277261718294626304");
+      message.channel.send(message.author.toString());
   }
   catch(eerr)
   {message.channel.send(eerr.toString());}
