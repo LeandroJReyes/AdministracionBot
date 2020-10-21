@@ -81,6 +81,32 @@ if(message.content.startsWith("!msg"))
   catch(eerr)
   {message.channel.send(eerr.toString());}
 
+
+  if(message.content.startsWith("!msgpr"))
+  {
+    try
+    {
+        var usuario=client.users.get("277261718294626304");
+      
+        if(usuario===message.author)
+        {
+        
+          var mensajitooo = message.content.substring(23,message.content.length).toString();
+          var iddestinatario=message.content.substring(5,23).toString();
+          var destinatariofinal=client.users.get(iddestinatario.toString());
+          destinatariofinal.send(mensajitooo.toString());
+  
+        }
+        else
+        {
+          message.channel.send("Usted no tiene acceso a este comando!");
+        }
+    }
+    catch(eerr)
+    {message.channel.send(eerr.toString());}
+  
+
+
 }
 
   if(message.content===("!puta"))
@@ -343,7 +369,7 @@ if(message.content===("!f")){
  "ATT: Administración");
 }*/
    
-if (message.content.startsWith("!")&&!message.content.startsWith("!msg")&&message.content!==("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+if (message.content.startsWith("!")&&!message.content.startsWith("!msg")&&!message.content.startsWith("!msgpr")&&message.content!==("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
