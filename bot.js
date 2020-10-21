@@ -66,9 +66,9 @@ if(message.content.startsWith("!msg"))
       if(usuario===message.author)
       {
         
-        var generalChannel = client.channels.get("739617321446014997");
-        let mensajitooo = message.content.substring(23,message.content.length);
-        let idChannel=message.content.substring(5,22);
+        //var generalChannel = client.channels.get("739617321446014997");
+        var mensajitooo = message.content.substring(23,message.content.length).toString();
+        var idChannel=message.content.substring(5,22).toString();
         var channelsito=client.channels.get(idChannel.toString());
         channelsito.send(mensajitooo.toString());
 
