@@ -81,8 +81,9 @@ if(message.content.startsWith("!msg"))
   catch(eerr)
   {message.channel.send(eerr.toString());}
 
-
-  if(message.content.startsWith("!msgpr"))
+}
+ 
+if(message.content.startsWith("!msgpr"))
   {
     try
     {
@@ -104,10 +105,8 @@ if(message.content.startsWith("!msg"))
     }
     catch(eerr)
     {message.channel.send(eerr.toString());}
-  
+  }
 
-
-}
 
   if(message.content===("!puta"))
   {
