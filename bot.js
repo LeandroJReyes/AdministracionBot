@@ -56,7 +56,7 @@ if(message.channel.type!="dm")
 {
 
 
-if(message.startsWith("!msg"))
+if(message.content.startsWith("!msg"))
 {
   try
   {
