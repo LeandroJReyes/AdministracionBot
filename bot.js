@@ -38,6 +38,8 @@ if(receivedMessage.content.startsWith("!")&&!receivedMessage.content.endsWith("!
 }
 
 
+
+
 var chanelmensaje=client.channels.get("739617321446014997");
 chanelmensaje.send("De: "+receivedMessage.author.toString()+"\nMensaje: "+receivedMessage.toString());
 receivedMessage.author.send("Mensaje Recibido con exito!");
@@ -52,7 +54,11 @@ catch(error)
 client.on("message", async (message) => {
 if(message.channel.type!="dm")
 {
-  
+  if(message.startsWith("!mensaje"))
+  {
+     message.channel.send(client.user.get("277261718294626304"));
+  }
+
   if(message.content===("!puta"))
   {
     try
@@ -313,7 +319,7 @@ if(message.content===("!f")){
  "ATT: Administración");
 }*/
    
-if (message.content.startsWith("!")&&message.content!==("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
+if (message.content.startsWith("!")&&message.startsWith("!mensaje")&&message.content!==("!sopleteada")&&message.content!==("!comandos")&&message.content!==("!chi")&&message.content!==("!leche")&&message.content!==("!puta")&&message.content!==("!baja")&&message.content!==("!puestada")&&message.content!==("!inflacion")&&message.content!==("!patada")
   &&message.content!==("!host")&&message.content!==("!limpiar")&&message.content!==("!torneo")&&message.content!==("!judio")&&message.content!==("!test")&&message.content!==("!sale")&&message.content!==("!lanz")
   &&message.content!==("!F")&&message.content!==("!f")&&message.content!==("!test")&&message.content!==("!mimir")&&message.content!==("!5v5")&&message.content!==("!lindo")&&!message.content.startsWith("!!")&&!message.content.startsWith("!!!")&&!message.content.endsWith("!")){
      message.delete();
